@@ -1,0 +1,93 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+.wrapper > div {
+    padding: 1rem;
+}
+
+.top-title{
+    background-color: peru;
+    grid-column: 2/3;
+    box-shadow: 4px 4px 15px;
+    border-radius: 10px;
+}
+
+.fox-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-border{
+    background-color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box-question{
+    background: #8e5000;
+    padding: 1rem;
+}
+
+.box-question p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.box-answer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.box-answer > div {
+    padding: 1rem;
+    grid-gap: 1rem;
+
+}
+
+.btn-answer {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+    font-weight: bold;
+    width: 300px;
+}
+
+.btn-answer:hover{
+    background-color: #ff9d00;
+    color: #fff;
+}
