@@ -54,7 +54,7 @@ function checkAnswer(num) {
                 var title = document.getElementById("quiz-title")
                 title.remove()
                 var titleDesc = document.getElementById("quiz-title-desc")
-                title.remove()
+                titleDesc.remove()
 
                 var newTitle = document.createElement("h1")
                 newTitle.setAttribute("id", "quiz-title")
