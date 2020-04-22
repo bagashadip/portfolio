@@ -53,8 +53,6 @@ function checkAnswer(num) {
                 alert("Quiz Selesai!")
                 var title = document.getElementById("quiz-title")
                 title.remove()
-                var titleDesc = document.getElementById("quiz-title-desc")
-                titleDesc.remove()
 
                 var newTitle = document.createElement("h1")
                 newTitle.setAttribute("id", "quiz-title")
